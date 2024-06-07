@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page Dicoding</title>
+
+    <!-- My Own CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome 5.15.4 -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+        /* Existing CSS here */
+        /* Additional CSS for smooth scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
+
+        .main-content section {
+            margin-bottom: 3rem;
+        }
+        .sidebar ol {
+            padding-left: 0;
+            list-style: none;
+        }
+
+        .sidebar ol li {
+            margin-bottom: 1rem;
+        }
+
+        .sidebar ol li a {
+            text-decoration: none;
+            color: #000;
+            display: block;
+            padding: 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .sidebar ol li a:hover {
+            background-color: #425c77;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header class="navbar-container">
+        <div class="logo">
+            <img src="img/logoportofolio.png" alt="Sabar Martua Tamba" />
+        </div>
+        <nav class="nav-list">
+            <ul>
+                <li><a href="index.html">Dashboard</a></li>
+                <li><a href="personaldata.html">Personal Data</a></li>
+                <li><a href="skills.html">My Skill</a></li>
+                <li><a href="project.html">My Project</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="sidebar">
+            <ol>
+                <li><a href="#location">Personal Data</a></li>
+                <li><a href="#date-and-time">Studies Data</a></li>
+                <li><a href="#payment">Hobby</a></li>
+            </ol>
+        </div>
+
+        <div class="main-content">
+            <section id="location">
+                <h1>Personal Data</h1>
+                <p>Welcome to my personal data section. Here you will find all the essential information about me.</p>
+                <div class="form-section">
+                  <h2>Details</h2>
+                  <table>
+                      <tr>
+                          <th>Attribute</th>
+                          <th>Details</th>
+                      </tr>
+                      <tr>
+                          <td>Name</td>
+                          <td>Sabar Martua Tamba</td>
+                      </tr>
+                      <tr>
+                          <td>Place/Date of Birth</td>
+                          <td>Mandala/September 30, 2004</td>
+                      </tr>
+                      <tr>
+                          <td>Address</td>
+                          <td>Pandumaan, Kec. Pollung, Kab. Humbang Hasundutan, North Sumatra</td>
+                      </tr>
+                      <tr>
+                          <td>Social Media</td>
+                          <td>
+                            <li>Email : sabarmartuatamba@gmail.com</li>
+                            <li>LinkedIn : Sabar Martua Tamba</li>
+                            <li>Instagram : @sabarmarttuaa</li>
+                          </td>
+                      </tr>
+                  </table>
+              </div>
+            </section>
+            <section id="date-and-time">
+                <h1>Studies Data</h1>
+                <p>In this section, you can find detailed information about my academic background and studies.</p>
+                <div class="form-section">
+                  <h2>Details</h2>
+                  <table>
+                      <tr>
+                          <th>Attribute</th>
+                          <th>Details</th>
+                      </tr>
+                      <tr>
+                          <td>College</td>
+                          <td>Del Insitute of Technology</td>
+                      </tr>
+                      <tr>
+                          <td>Senior High School</td>
+                          <td>SMA Negeri 1 Pollung</td>
+                      </tr>
+                      <tr>
+                          <td>Senior High School</td>
+                          <td>SMP Negeri 2 Pollung</td>
+                      </tr>
+                      <tr>
+                          <td>Elementary School</td>
+                          <td>SD Negeri 176349 Pollung</td>
+                      </tr>
+                  </table>
+              </div>
+                <h3>Additional Information</h3>
+                <ul>
+                    <li>Collage : <strong>DIII Information of Technology</strong><br>
+                    2022 - Now
+                    <br><strong>Organisational Experience :</strong>
+                    </li>
+                    <ul>
+                        <li>Committee of the Program Cinta Almamater - First Aid Coordinator</li>
+                        <li>Information Technology Student Association - Member</li>
+                        <li>Student Leadership Program - Abang Asuh</li>
+                    </ul>
+                    <strong>IPK : 3.53</strong>
+                    <br><br>
+                    <li>SHS     : <strong>Mathematics and Natural Sciences</strong><br>
+                      2019 - 2022
+                      </li>
+                </ul>
+            </section>
+            <section id="payment">
+                <h1>Hobby</h1>
+                <p>This section highlights my hobbies and interests outside of academics and professional life.</p>
+                <ul>
+                    <li>Reading books</li>
+                    <li>Playing Mobile Games</li>
+                    <li>Master Of Ceremony</li>
+                    <li>Design Interface</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+</body>
+</html>
